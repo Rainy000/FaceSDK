@@ -1,3 +1,0 @@
-/home/wangy/workspace/FaceTest/build/CMakeFiles/rebuild_cache.dir
-/home/wangy/workspace/FaceTest/build/CMakeFiles/glodonfacesdk.dir
-/home/wangy/workspace/FaceTest/build/CMakeFiles/edit_cache.dir
