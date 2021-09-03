@@ -4,8 +4,6 @@
 
 This repository contain a simple demo for face recognition.
 
-
-
 ## Table of contents
 
 - face detector based on centerNet
@@ -13,7 +11,13 @@ This repository contain a simple demo for face recognition.
 - source code for sdk 
 - cmake build script for generating .so file
 - c++ demo for calling the .so file
--  python demo for calling the .so file
+- python demo for calling the .so file
+
+## Dependent libraries
+
+- opencv
+- protobuf
+- ncnn
 
 ## License
 
