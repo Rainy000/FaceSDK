@@ -1,0 +1,3 @@
+/home/wangy/workspace/FaceTest/demo/build/CMakeFiles/rebuild_cache.dir
+/home/wangy/workspace/FaceTest/demo/build/CMakeFiles/demo.dir
+/home/wangy/workspace/FaceTest/demo/build/CMakeFiles/edit_cache.dir
