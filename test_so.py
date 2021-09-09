@@ -198,7 +198,7 @@ def test(lib_path):
 
 
 if __name__ == "__main__" :
-    lib_path = './lib/libglodonfacesdk.so'
+    lib_path = './lib/libfacesdk.so'
     test(lib_path)
     
 

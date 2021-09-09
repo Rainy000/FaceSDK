@@ -35,12 +35,12 @@ find_package(OpenCV REQUIRED)
 #endif()
 
 
-#4. glodonfacesdk
-add_library( glodonfacesdk SHARED IMPORTED )
+#4. facesdk
+add_library( facesdk SHARED IMPORTED )
 set_target_properties(
-        glodonfacesdk
+        facesdk
         PROPERTIES IMPORTED_LOCATION
-        ${CMAKE_CURRENT_LIST_DIR}/../lib/libglodonfacesdk.so
+        ${CMAKE_CURRENT_LIST_DIR}/../lib/libfacesdk.so
 )
 
 message(STATUS "CMAKE_CURRENT_LIST_DIR=${CMAKE_CURRENT_LIST_DIR}/../lib")
@@ -56,7 +56,7 @@ file(GLOB SRC_CODE  ${CMAKE_CURRENT_LIST_DIR}/demo.cpp)
 add_executable(demo ${SRC_CODE})
 
 target_link_libraries(demo 
-                      glodonfacesdk
+                      facesdk
                       libncnn
                       ${OpenCV_LIBS}
 					  )

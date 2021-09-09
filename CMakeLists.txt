@@ -5,7 +5,7 @@ cmake_minimum_required(VERSION 2.8)
 set (NCNN_DIR /home/wangy/3rdParty/ncnn/build_linux/install)
 
 #2.project name
-project(glodonfacesdk)
+project(facesdk)
 
 
 #3.set environment variable
@@ -51,10 +51,10 @@ SET(LIBRARY_OUTPUT_PATH ${CMAKE_CURRENT_SOURCE_DIR}/lib/)
 message(STATUS "CMAKE_CURRENT_SOURCE_DIR=${CMAKE_CURRENT_SOURCE_DIR}")
 
 #8. generate so
-add_library(glodonfacesdk SHARED ${SRC_CODE})
+add_library(facesdk SHARED ${SRC_CODE})
 
 #9. add dependence
-target_link_libraries(glodonfacesdk 
+target_link_libraries(facesdk 
                       libncnn
                       ${OpenCV_LIBS}
 					  )
